@@ -12,13 +12,13 @@
 namespace Sonata\MediaBundle\Provider;
 
 use Gaufrette\Filesystem;
-use Sonata\AdminBundle\Validator\ErrorElement;
 use Sonata\CoreBundle\Model\Metadata;
 use Sonata\MediaBundle\CDN\CDNInterface;
 use Sonata\MediaBundle\Generator\GeneratorInterface;
 use Sonata\MediaBundle\Model\MediaInterface;
 use Sonata\MediaBundle\Resizer\ResizerInterface;
 use Sonata\MediaBundle\Thumbnail\ThumbnailInterface;
+use Sonata\CoreBundle\Validator\ErrorElement;
 
 abstract class BaseProvider implements MediaProviderInterface
 {

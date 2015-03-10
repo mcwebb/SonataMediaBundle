@@ -11,12 +11,12 @@
 
 namespace Sonata\MediaBundle\Provider;
 
-use Gaufrette\Filesystem;
 use Sonata\AdminBundle\Form\FormMapper;
-use Sonata\AdminBundle\Validator\ErrorElement;
 use Sonata\CoreBundle\Model\MetadataInterface;
 use Sonata\MediaBundle\Model\MediaInterface;
 use Sonata\MediaBundle\Resizer\ResizerInterface;
+use Gaufrette\Filesystem;
+use Sonata\CoreBundle\Validator\ErrorElement;
 use Symfony\Component\Form\FormBuilder;
 
 interface MediaProviderInterface
